@@ -40,8 +40,8 @@ st.markdown(
     - Talk to our [Live bot Bert](https://www.morganvalleytech.com)
     - Ask a question about tech [Brother of Bert](https://www.morganvalleytech.com)
     ### See more complex demos
-    - Use a neural net to [analyze the Udacity Self-driving Car Image
-        Dataset](https://github.com/streamlit/demo-self-driving)
-    - Explore a [New York City rideshare dataset](https://github.com/streamlit/demo-uber-nyc-pickups)
+    - Use a neural net to [analyze chest x-rays for covid-19 
+        Dataset](https://www.morganvalleytech.com/medical-analysis)
+    - Explore a [social media dataset](https://www.morganvalleytech.com/twitter-ad-analysis)
 """
 )
