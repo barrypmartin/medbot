@@ -17,10 +17,10 @@ st.write("# Welcome to Medbot! 👋 Your window to the future")
 
 st.sidebar.success("Select a demo above.")
 
-st.title("File Uploader")
+st.sidebar.title("File Uploader")
 
 # Use the file uploader widget to allow users to upload a file
-file = st.file_uploader("Upload a file", type=["csv"])
+file = st.sidebar.file_uploader("Upload a file", type=["csv"])
 
 # Check if a file was uploaded by the user
 if file is not None:
