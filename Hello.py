@@ -6,6 +6,7 @@ Created on Tue Feb  7 08:52:58 2023
 """
 
 import streamlit as st
+import pandas as pd
 
 st.set_page_config(
     page_title="Hello",
@@ -15,6 +16,20 @@ st.set_page_config(
 st.write("# Welcome to Medbot! 👋 Your window to the future")
 
 st.sidebar.success("Select a demo above.")
+
+st.title("File Uploader")
+
+# Use the file uploader widget to allow users to upload a file
+file = st.file_uploader("Upload a file", type=["csv"])
+
+# Check if a file was uploaded by the user
+if file is not None:
+    # Use pandas to read the CSV file
+    data = pd.read_csv(file)
+
+    # Display the data in a table
+    st.write("Here's the data you uploaded:")
+    st.write(data)
 
 st.markdown(
     """
