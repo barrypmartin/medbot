@@ -36,6 +36,7 @@ st.markdown(
          **👈 Select a demo from the sidebar** to see some examples
     of what Medbot can do!
     ### Want to learn more?
+    - Try out Heart Health Predictor [Heart AI](https://barrypmartin-prediction-prediction-7fynsl.streamlit.app/)
     - Check out [Morgan Valley Tech](https://www.morganvalleytech.com)
     - Talk to our [Live bot Bert](https://www.morganvalleytech.com)
     - Ask a question about tech [Brother of Bert](https://www.morganvalleytech.com)
